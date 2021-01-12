@@ -34,7 +34,7 @@ public class Runner {
 		duck5.setName(("Hooded Merganser Duck"));
 		duck5.setAMallard(false);
 		
-		Duck dList = new Duck();
+		DuckManager dList = new DuckManager();
 		
 		dList.setDuckList(duck0);
 		dList.setDuckList(duck1);
@@ -48,6 +48,8 @@ public class Runner {
 		//dList.streamDuckOutput();
 		
 		dList.printMallard();
+		
+		dList.printDuckListByName();
 		
 		
 	}
